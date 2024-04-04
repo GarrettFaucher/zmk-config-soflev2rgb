@@ -87,11 +87,11 @@
         nav {
             label = "Navigation";
             bindings = <
-&trans  &trans     &trans     &trans     &trans     &trans                        &trans         &trans     &trans     &trans     &trans     &trans
-&trans  &trans     &trans     &trans     &trans     &trans                        &kp LS(LC(Z))  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans
-&trans  &trans     &trans     &trans     &trans     &caps_word                    &caps_word     &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &trans
-&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans      &trans    &trans  &trans         &kp HOME   &kp PG_DN  &kp PG_UP  &kp END    &trans
-                   &trans     &trans     &trans     &trans      &trans    &trans  &trans         &trans     &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans                        &trans      &kp F13     &kp F14           &trans     &trans      &trans
+&trans  &trans  &trans  &trans  &trans  &trans                        &trans      &kp K_PREV  &kp K_PLAY_PAUSE  &trans     &kp K_NEXT  &trans
+&trans  &trans  &trans  &trans  &trans  &caps_word                    &caps_word  &kp LEFT    &kp DOWN          &kp UP     &kp RIGHT   &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans    &trans  &trans      &kp HOME    &kp PG_DN         &kp PG_UP  &kp END     &trans
+                &trans  &trans  &trans  &trans      &trans    &trans  &trans      &trans      &trans            &trans
             >;
         };
 
